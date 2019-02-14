@@ -23,19 +23,37 @@ body {
   margin: 0;
 }
 
-div {
+header {
   background-color: #e2e2e2;
+  text-align: center;
 }
 
 a {
   color: #0074d9;
+  text-decoration: none;
 }
 
-a hover {
-  color: #e2e2e2;
+a:hover {
+  color: #fff;
   background-color: #0074d9;
 }
 
 nav li {
   display: inline-block;
+}
+
+nav {
+  padding: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+.solar {
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+}
+
 }
