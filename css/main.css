@@ -11,6 +11,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,4 +21,21 @@ html {
 
 body {
   margin: 0;
+}
+
+div {
+  background-color: #e2e2e2;
+}
+
+a {
+  color: #0074d9;
+}
+
+a hover {
+  color: #e2e2e2;
+  background-color: #0074d9;
+}
+
+nav li {
+  display: inline-block;
 }
