@@ -48,12 +48,12 @@ nav {
 
 @media only screen and (min-width: 38em) {
 
-.solar {
-  text-align: left;
-}
+  .solar {
+    text-align: left;
+  }
 
-nav {
-  text-align: right;
-}
+  nav {
+    text-align: right;
+  }
 
 }
